@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static "css/style.css" %}" />
+    <title>Учет коммунальных услуг</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+			<img class="logo1" src="{% static "images/logo.png" %}">
+            <div class="logo2">Kom.yslyg</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#" class="button1">Вход</a></li>
+                    <li><a href="#" class="button1">Регистрация</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+	<main>
+    <section class="section1">
+        <h2>Услуги ЖКХ</h2>
+		<img class="section1_1" src="/kommunal/yslygi/static/images/elec.jpg">
+        <p><a href="#" class="button2">Оплата услуг ЖКХ, просмотр счет-фактуры, ввод показаний счетчиков</a></p>
+    </section>
+    
+	<section class="section2">
+        <h2>Заплатить за тепло</h2>
+		<img class="section2_1" src="/kommunal/yslygi/static/images/voda.jpg">
+        <p><a href="#" class="button2">Внесение абонентской платы за тепловую энергию</a></p>
+	</section>
+	
+	<section class="section3">
+		<h2>Газоснабжение</h2>
+		<img class="section3_1" src="/kommunal/yslygi/static/images/gas.jpg">
+		<p><a href="#" class="button2">Оплата услуг по газоснабжению и техобслуживанию. Подача показаний приборов учета газа</a></p>
+	</section>
+	
+	<section class="section4">
+        <h2>Заплатить за сигнализацию</h2>
+		<img class="section4_1" src="/kommunal/yslygi/static/images/signalka.jpg">
+        <p><a href="#" class="button2">Оплата услуги по техническому обслуживанию сигнализации квартиры</a></p>
+	</section>
+	
+	<section class="section5">
+        <h2>Заплатить за домофон</h2>
+		<img class="section5_1" src="/kommunal/yslygi/static/images/domofon.jpg">
+        <p><a href="#" class="button2">Внесение абонентской платы за техническое обслуживание системы домофонов</a></p>
+	</section>
+
+</main>
+<footer>
+<div class="text">
+        <p><a href="#">Написать нам</a></p>
+        <p><a href="#">Оценить качество оказания услуг</a></p>
+</div>
+<p>2024 Kom.yslyg</p>
+</footer>
+</body>
+</html>
